@@ -58,3 +58,9 @@ learning Project
   - It routes and transforms data, pushing to:
     - PostgreSQL (via JDBC or API)
     - RabbitMQ (to trigger enrichment)
+
+## commands
+
+```shell
+docker run -d --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=postgres postgres:17.5
+```
